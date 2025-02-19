@@ -1,0 +1,38 @@
+// currencyCountryMap.js
+const currencyCountryMap = {
+    "AUD": "Australia",
+    "BGN": "Bulgaria",
+    "BRL": "Brazil",
+    "CAD": "Canada",
+    "CHF": "Switzerland",
+    "CNY": "China",
+    "CZK": "Czech Republic",
+    "DKK": "Denmark",
+    "EUR": "European Union",
+    "GBP": "United Kingdom",
+    "HKD": "Hong Kong",
+    "HRK": "Croatia",
+    "HUF": "Hungary",
+    "IDR": "Indonesia",
+    "ILS": "Israel",
+    "INR": "India",
+    "ISK": "Iceland",
+    "JPY": "Japan",
+    "KRW": "South Korea",
+    "MXN": "Mexico",
+    "MYR": "Malaysia",
+    "NOK": "Norway",
+    "NZD": "New Zealand",
+    "PHP": "Philippines",
+    "PLN": "Poland",
+    "RON": "Romania",
+    "RUB": "Russia",
+    "SEK": "Sweden",
+    "SGD": "Singapore",
+    "THB": "Thailand",
+    "TRY": "Turkey",
+    "USD": "United States",
+    "ZAR": "South Africa"
+};
+
+window.currencyCountryMap = currencyCountryMap;

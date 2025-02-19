@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="icon" href="./exchange-svgrepo-com.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="controls">
+            <input type="number" id="amount" placeholder="Enter amount" min="1">
+        </div>
+        <div class="controls-2">
+            <select id="fromCurrency">
+                <option value=""></option>
+            </select>
+            <img src="./exchange-svgrepo-com.svg" class="swap-icon" alt="Swap">
+            <select id="toCurrency"></select>
+        </div>
+        <button>Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="Api.js"></script>
+    <script src="currencyCountryMap.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
